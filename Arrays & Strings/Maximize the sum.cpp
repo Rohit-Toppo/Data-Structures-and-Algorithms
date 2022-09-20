@@ -24,7 +24,7 @@ We start from array 2 and take sum till 5 (sum = 11). Then we'll switch to array
 Now, no elements left in array after 15, so we'll continue in array 1. Hence sum is 81
 */
 
-
+int max(int x, int y) { return (x > y) ? x : y; }
 
 long maxPathSum(int ar1[], int ar2[], int m, int n)
 {
